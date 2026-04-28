@@ -1,0 +1,42 @@
+PORTFOLIO IMAGES PLACEHOLDER
+============================
+
+This folder is for storing your portfolio project images.
+
+Current Setup:
+- Portfolio images are currently using placeholder URLs from via.placeholder.com
+- These are temporary and should be replaced with actual project photos
+
+How to Add Your Images:
+1. Prepare your interior design photos
+2. Save them in this directory (images/)
+3. Update the image URLs in js/main.js
+
+Image Specifications:
+- Format: JPG or PNG
+- Recommended Size: 600x400px for portfolio cards
+- For modal gallery: 800x600px or higher
+- File Size: Optimize to under 200KB each
+- Aspect Ratio: 3:2 or 4:3
+
+Recommended Image Tools:
+- TinyPNG: https://tinypng.com (compress PNG/JPG)
+- ImageOptim: https://imageoptim.com (batch optimize)
+- Squoosh: https://squoosh.app (online compression)
+
+File Naming Convention:
+- portfolio-modern-kitchen-1.jpg
+- portfolio-living-space-1.jpg
+- portfolio-bedroom-1.jpg
+- etc.
+
+To Update Portfolio Images:
+1. Edit js/main.js (lines 6-70)
+2. Replace placeholder URLs with your image paths:
+   
+   OLD: 'https://via.placeholder.com/600x400?text=Modern+Walnut+Kitchen+1'
+   NEW: 'images/portfolio-modern-kitchen-1.jpg'
+
+3. Save and refresh browser
+
+Current Status: Using placeholder URLs - replace with actual images for production
